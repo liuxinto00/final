@@ -7,6 +7,7 @@
   font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
+// I really like the images you used. I don't know how you got them to be like they are but I like the simplicity so there are less colors.
 .back {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),
     url(../city.jpeg) center center / cover no-repeat;
