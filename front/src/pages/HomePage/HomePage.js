@@ -14,6 +14,7 @@ const { Header, Content } = Layout;
 const HomePage = (props) => {
   const urlParams = new URLSearchParams(window.location.search);
   const username = urlParams.get("username");
+  //I need to learn how to use this local storage thing. I've seen n it and it seems liek a good idea
   if (username !== null && username !== undefined) {
     localStorage.setItem("username", username);
   }
@@ -52,7 +53,7 @@ const HomePage = (props) => {
 
     history.push(url);
   };
-
+//very creative layout. Takes you through kind of a story.
   return (
     <Layout>
       <Header style={{ background: "#fcaf58" }}>
@@ -178,6 +179,7 @@ const HomePage = (props) => {
                           >
                             To :
                           </Form.Label>
+//I think you can set the inputs to numbers instead of strings so that later you don't have to parse it.
                           <Form.Control
                             as="select"
                             size="sm"
