@@ -82,7 +82,7 @@ const HouseListPage = (props) => {
   useEffect(() => {
     fetchHousings();
   }, []);
-
+//might want to work ont the layout here so it looks a bit more proessional. THe orange writing makes it a bit off.
   return (
     <Layout>
       <Header style={{ background: "#fcaf58" }}>
